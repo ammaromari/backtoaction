@@ -1,0 +1,8 @@
+---
+- name: git hub playbook
+  hosts: all
+  tasks:
+    - name: creating a usr
+      name: user300
+      state: present
+...
